@@ -1,0 +1,23 @@
+{
+	"name": "projectdvn",
+	"targetType": "executable",
+	"targetPath": "../../build/client",
+	"targetName": "DVN-Examples",
+	"dependencies": {
+		"derelict-util": "~>3.0.0-beta.1",
+		"dvn": "~>1.1.3"
+	},
+	"stringImportPaths": [
+		"extensions"
+	],
+	"configurations": [{
+		"name": "windows",
+		"lflags": ["/LIBPATH:libs_derelict_sdl", "/SUBSYSTEM:windows"]
+	}, {
+		"name": "linux",
+		"lflags": ["/LIBPATH:libs_derelict_sdl"]
+	}, {
+		"name": "macos",
+		"lflags": ["/LIBPATH:libs_derelict_sdl"]
+	}]
+}

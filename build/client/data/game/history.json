@@ -1,0 +1,410 @@
+[
+	{
+		"text": "Hello, World!",
+		"options": [],
+		"sceneName": "Hello World",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Hello World"
+	},
+	{
+		"text": "Bob: How are you, Alice?",
+		"options": [],
+		"sceneName": "Basic Character Dialogue",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Basic Character Dialogue"
+	},
+	{
+		"text": "Alice: I'm fine, how are you?",
+		"options": [],
+		"sceneName": "Basic Character Dialogue-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Basic Character Dialogue"
+	},
+	{
+		"text": "Bob: Fantastic!",
+		"options": [],
+		"sceneName": "Basic Character Dialogue-??????????-3",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Basic Character Dialogue"
+	},
+	{
+		"text": "Alice: That's good to hear.",
+		"options": [],
+		"sceneName": "Basic Character Dialogue-??????????-4",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Basic Character Dialogue"
+	},
+	{
+		"text": "Do you like DVN?",
+		"options": [],
+		"sceneName": "Choices (Simple Branching)",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Choices (Simple Branching)"
+	},
+	{
+		"text": "Yay!",
+		"options": [],
+		"sceneName": "Choices (Simple Branching)-yes",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Choices (Simple Branching)-yes"
+	},
+	{
+		"text": "Aw! :(",
+		"options": [],
+		"sceneName": "Choices (Simple Branching)-no",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Choices (Simple Branching)-no"
+	},
+	{
+		"text": "Bob: Today sure is sunny.",
+		"options": [],
+		"sceneName": "Play a Sound Effect",
+		"sceneBackground": "Sunny",
+		"sceneMusic": "",
+		"originalScene": "Play a Sound Effect"
+	},
+	{
+		"text": "Bob: Why did it start raining?!",
+		"options": [],
+		"sceneName": "raining",
+		"sceneBackground": "Raining",
+		"sceneMusic": "",
+		"originalScene": "raining"
+	},
+	{
+		"text": "We will go to next scene after this.",
+		"options": [],
+		"sceneName": "Scene Navigation #1",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Scene Navigation #1"
+	},
+	{
+		"text": "This is the next scene.",
+		"options": [],
+		"sceneName": "Scene Navigation #1-next-scene",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Scene Navigation #1-next-scene"
+	},
+	{
+		"text": "What scene do you wanna go to?",
+		"options": [],
+		"sceneName": "Scene Navigation #2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Scene Navigation #2"
+	},
+	{
+		"text": "It is sunny!",
+		"options": [],
+		"sceneName": "Scene Navigation #2-sunny",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Scene Navigation #2-sunny"
+	},
+	{
+		"text": "It is raining!",
+		"options": [],
+		"sceneName": "Scene Navigation #2-raining",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Scene Navigation #2-raining"
+	},
+	{
+		"text": "What drink do you prefer?",
+		"options": [],
+		"sceneName": "Branching Narrative With Variables",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Branching Narrative With Variables"
+	},
+	{
+		"text": "Nice choice! Coffee is energizing.",
+		"options": [],
+		"sceneName": "Branching Narrative With Variables-coffee",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Branching Narrative With Variables-coffee"
+	},
+	{
+		"text": "Later that day...",
+		"options": [],
+		"sceneName": "Branching Narrative With Variables-final",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Branching Narrative With Variables-final"
+	},
+	{
+		"text": "You take a sip of your coffee.",
+		"options": [],
+		"sceneName": "Branching Narrative With Variables-final-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Branching Narrative With Variables-final"
+	},
+	{
+		"text": "Tea is calming and gentle.",
+		"options": [],
+		"sceneName": "Branching Narrative With Variables-tea",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Branching Narrative With Variables-tea"
+	},
+	{
+		"text": "Do you pick up the key?",
+		"options": [],
+		"sceneName": "Conditional Dialogue",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Conditional Dialogue"
+	},
+	{
+		"text": "You pick up the key.",
+		"options": [],
+		"sceneName": "Conditional Dialogue-pick-up-key",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Conditional Dialogue-pick-up-key"
+	},
+	{
+		"text": "You walk in front of a locked door.",
+		"options": [],
+		"sceneName": "Conditional Dialogue-final",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Conditional Dialogue-final"
+	},
+	{
+		"text": "You open the door.",
+		"options": [],
+		"sceneName": "Conditional Dialogue-final-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Conditional Dialogue-final"
+	},
+	{
+		"text": "You leave the key be.",
+		"options": [],
+		"sceneName": "Conditional Dialogue-leave-the-key",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Conditional Dialogue-leave-the-key"
+	},
+	{
+		"text": "Do you leave Yvonne alone?",
+		"options": [],
+		"sceneName": "Custom Character Expressions",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Custom Character Expressions"
+	},
+	{
+		"text": "Yvonne: Why are you leaving me?",
+		"options": [],
+		"sceneName": "Custom Character Expressions-leave-yvonne-alone",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Custom Character Expressions-leave-yvonne-alone"
+	},
+	{
+		"text": "Yvonne: I'm glad you're staying.",
+		"options": [],
+		"sceneName": "Custom Character Expressions-stay-with-yvonne",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Custom Character Expressions-stay-with-yvonne"
+	},
+	{
+		"text": "This scene is pure madness!!",
+		"options": [],
+		"sceneName": "Effects Chain Example",
+		"sceneBackground": "Background",
+		"sceneMusic": "",
+		"originalScene": "Effects Chain Example"
+	},
+	{
+		"text": "Alice: I'm here!",
+		"options": [],
+		"sceneName": "Simple Animation/Movement",
+		"sceneBackground": "Background",
+		"sceneMusic": "",
+		"originalScene": "Simple Animation/Movement"
+	},
+	{
+		"text": "...",
+		"options": [],
+		"sceneName": "Timed Narrative Events",
+		"sceneBackground": "DarkRoom",
+		"sceneMusic": "",
+		"originalScene": "Timed Narrative Events"
+	},
+	{
+		"text": "Is someone there?",
+		"options": [],
+		"sceneName": "Timed Narrative Events-??????????-2",
+		"sceneBackground": "DarkRoom",
+		"sceneMusic": "",
+		"originalScene": "Timed Narrative Events"
+	},
+	{
+		"text": "...",
+		"options": [],
+		"sceneName": "Timed Narrative Events #1",
+		"sceneBackground": "DarkRoom",
+		"sceneMusic": "",
+		"originalScene": "Timed Narrative Events #1"
+	},
+	{
+		"text": "Is someone there?",
+		"options": [],
+		"sceneName": "Timed Narrative Events #1-??????????-2",
+		"sceneBackground": "DarkRoom",
+		"sceneMusic": "",
+		"originalScene": "Timed Narrative Events #1"
+	},
+	{
+		"text": "You feel something watching you.",
+		"options": [],
+		"sceneName": "Timed Narrative Events #2",
+		"sceneBackground": "Hallway",
+		"sceneMusic": "",
+		"originalScene": "Timed Narrative Events #2"
+	},
+	{
+		"text": "The box is in the top.",
+		"options": [],
+		"sceneName": "Basic UI Modification",
+		"sceneBackground": "Background",
+		"sceneMusic": "",
+		"originalScene": "Basic UI Modification"
+	},
+	{
+		"text": "Alice: Can I buy some fruits?",
+		"options": [],
+		"sceneName": "Importing JSON or CSV",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Importing JSON or CSV"
+	},
+	{
+		"text": "Shopkeeper: Yes, we have the following fruits: apples, bananas, oranges.",
+		"options": [],
+		"sceneName": "Importing JSON or CSV-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Importing JSON or CSV"
+	},
+	{
+		"text": "Hello, world!",
+		"options": [],
+		"sceneName": "Randomized Narrative Events-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Randomized Narrative Events"
+	},
+	{
+		"text": "Alice: Do you want to play rock, scissor, paper?",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)"
+	},
+	{
+		"text": "Bob: Absolutely!",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)"
+	},
+	{
+		"text": "Alice: Aw, I didn't expect you'd win!",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)-win",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)-win"
+	},
+	{
+		"text": "Alice: It is a draw, you can try your luck again!",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)-draw",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)-draw"
+	},
+	{
+		"text": "Bob: Okay.",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)-draw-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)-draw"
+	},
+	{
+		"text": "Alice: You lose! You can try your luck again!",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)-lose",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)-lose"
+	},
+	{
+		"text": "Bob: Sure.",
+		"options": [],
+		"sceneName": "Minigame / Interaction (Custom Gameplay)-lose-??????????-2",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Minigame / Interaction (Custom Gameplay)-lose"
+	},
+	{
+		"text": "Alice: There is an old rusty key here. Should we pick it up?",
+		"options": [],
+		"sceneName": "Inventory System",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Inventory System"
+	},
+	{
+		"text": "Alice: Okay... maybe later.",
+		"options": [],
+		"sceneName": "Inventory System-leave",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Inventory System-leave"
+	},
+	{
+		"text": "Alice: The door is locked.",
+		"options": [],
+		"sceneName": "Inventory System-room",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Inventory System-room"
+	},
+	{
+		"text": "Alice: Got it.",
+		"options": [],
+		"sceneName": "Inventory System-pickup",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Inventory System-pickup"
+	},
+	{
+		"text": "Alice: The key worked!",
+		"options": [],
+		"sceneName": "Inventory System-door-open",
+		"sceneBackground": "",
+		"sceneMusic": "",
+		"originalScene": "Inventory System-door-open"
+	}
+]

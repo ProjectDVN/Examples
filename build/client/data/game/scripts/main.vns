@@ -1,0 +1,175 @@
+[main]
+view=ExamplesView
+
+[Hello World]
+t=Hello, World!
+
+[Basic Character Dialogue]
+c=Alice
+Bob=How are you, Alice?
+Alice=I'm fine, how are you?
+Bob=Fantastic!
+Alice=That's good to hear.
+
+[Choices (Simple Branching)]
+t=Do you like DVN?
+o:Choices (Simple Branching)-yes=Yes
+o:Choices (Simple Branching)-no=No
+
+[Choices (Simple Branching)-yes]
+t=Yay!
+
+[Choices (Simple Branching)-no]
+t=Aw! :(
+
+[Play a Sound Effect]
+bg=Sunny
+s=Bob_Relief
+Bob:Play a Sound Effect-raining=Today sure is sunny.
+
+[Play a Sound Effect-raining]
+bg=Raining
+s=Raining
+Bob=Why did it start raining?!
+
+[Scene Navigation #1]
+t:Scene Navigation #1-next-scene=We will go to next scene after this.
+
+[Scene Navigation #1-next-scene]
+t=This is the next scene.
+
+[Scene Navigation #2]
+t=What scene do you wanna go to?
+o:Scene Navigation #2-sunny=Sunny
+o:Scene Navigation #2-raining=Raining
+
+[Scene Navigation #2-sunny]
+t=It is sunny!
+
+[Scene Navigation #2-raining]
+t=It is raining!
+
+[Branching Narrative With Variables]
+t=What drink do you prefer?
+o:Branching Narrative With Variables-coffee=Coffee
+o:Branching Narrative With Variables-tea=Tea
+
+[Branching Narrative With Variables-coffee]
+t:Branching Narrative With Variables-final=Nice choice! Coffee is energizing.
+
+[Branching Narrative With Variables-tea]
+t:Branching Narrative With Variables-final=Tea is calming and gentle.
+
+[Branching Narrative With Variables-final]
+t=Later that day...
+t=You take a sip of your {drink}.
+
+[Conditional Dialogue]
+t=Do you pick up the key?
+o:Conditional Dialogue-pick-up-key=Yes.
+o:Conditional Dialogue-leave-the-key=No.
+
+[Conditional Dialogue-pick-up-key]
+t:Conditional Dialogue-final=You pick up the key.
+
+[Conditional Dialogue-leave-the-key]
+t:Conditional Dialogue-final=You leave the key be.
+
+[Conditional Dialogue-final]
+t=You walk in front of a locked door.
+t={result}
+
+[Custom Character Expressions]
+c=Yvonne,Neutral
+t=Do you leave Yvonne alone?
+o:Custom Character Expressions-leave-yvonne-alone=Yes.
+o:Custom Character Expressions-stay-with-yvonne=No.
+
+[Custom Character Expressions-leave-yvonne-alone]
+c=Yvonne,Sad
+Yvonne=Why are you leaving me?
+
+[Custom Character Expressions-stay-with-yvonne]
+c=Yvonne,Happy
+Yvonne=I'm glad you're staying.
+
+[Effects Chain Example]
+bg=Background
+c=Character
+
+# Apply multiple effects
+effect=BackgroundMoveZoom
+effect=ScreenShake
+
+t=This scene is pure madness!!
+
+[Simple Animation/Movement]
+c=Alice
+cm=left
+cms=42
+Alice=I'm here!
+
+[Timed Narrative Events #1]
+bg=DarkRoom
+delay=1500
+
+c=Alice
+t=...
+t=Is someone there?
+
+[Timed Narrative Events #2]
+bg=Hallway
+effect:pre=ScreenShake
+delay=2000
+
+t=You feel something watching you.
+
+[Basic UI Modification]
+t=The box is in the top.
+
+[Importing JSON or CSV]
+Alice=Can I buy some fruits?
+Shopkeeper=Yes, we have the following fruits: {fruits}.
+
+[Randomized Narrative Events]
+chance=10
+t=This is some secret text.
+t=Hello, world!
+
+[Minigame / Interaction (Custom Gameplay)]
+Alice=Do you want to play rock, scissor, paper?
+Bob:Minigame / Interaction (Custom Gameplay)-play-rock-scissor-paper=Absolutely!
+
+[Minigame / Interaction (Custom Gameplay)-play-rock-scissor-paper]
+view=RockScissorPaperView
+
+[Minigame / Interaction (Custom Gameplay)-win]
+Alice=Aw, I didn't expect you'd win!
+
+[Minigame / Interaction (Custom Gameplay)-lose]
+Alice=You lose! You can try your luck again!
+Bob:Minigame / Interaction (Custom Gameplay)-play-rock-scissor-paper=Sure.
+
+[Minigame / Interaction (Custom Gameplay)-draw]
+Alice=It is a draw, you can try your luck again!
+Bob:Minigame / Interaction (Custom Gameplay)-play-rock-scissor-paper=Okay.
+
+[Inventory System]
+Alice=There is an old rusty key here. Should we pick it up?
+o:Inventory System-pickup=Pick it up
+o:Inventory System-leave=Leave it
+
+[Inventory System-pickup]
+Alice:Inventory System-room=Got it.
+
+[Inventory System-leave]
+Alice:Inventory System-room=Okay... maybe later.
+
+[Inventory System-room]
+Alice:Inventory System-show-inventory=The door is locked.
+
+[Inventory System-show-inventory]
+view=InventoryView
+
+[Inventory System-door-open]
+Alice=The key worked!

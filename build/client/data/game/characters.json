@@ -1,0 +1,20 @@
+{
+	"Stickman": {
+		"default": "Normal",
+		"Normal": "data/game/characters/Stickman.png"
+	},
+	"Alice": {
+		"default": "Normal",
+		"Normal": "data/game/characters/Alice/Normal.png"
+	},
+	"Yvonne": {
+		"default": "Neutral",
+		"Neutral": "data/game/characters/Yvonne/neutral.png",
+		"Sad": "data/game/characters/Yvonne/sad.png",
+		"Happy": "data/game/characters/Yvonne/happy.png"
+	},
+	"Character": {
+		"default": "Normal",
+		"Normal": "data/game/characters/Alice/Normal.png"
+	}
+}

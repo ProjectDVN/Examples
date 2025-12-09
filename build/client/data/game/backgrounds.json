@@ -1,0 +1,18 @@
+{
+    "Background": {
+      "path": "data/game/backgrounds/bg.png"
+    },
+    "Sunny": {
+      "path": "data/game/backgrounds/Sunny.png"
+    },
+    "Raining": {
+      "path": "data/game/backgrounds/Raining.png"
+    },
+    "DarkRoom": {
+      "path": "data/game/backgrounds/DarkRoom.png"
+    },
+    "Hallway": {
+      "path": "data/game/backgrounds/Hallway.png"
+    }
+  }
+  
